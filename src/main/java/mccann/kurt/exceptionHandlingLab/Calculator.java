@@ -22,21 +22,6 @@ public class Calculator
 
     public static int divide(int a, int b) throws ArithmeticException
     {
-        int answer;
-        try
-        {
-            answer = a/b;
-        }
-        catch(ArithmeticException e)
-        {
-            System.out.println(e.getMessage());
-            e.printStackTrace();
-            answer = 0;
-        }
-        return answer;
+        return a/b;
     }
-
-
-
-
 }

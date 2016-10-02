@@ -43,12 +43,10 @@ public class CalculatorTest
         assertEquals(expected, actual);
     }
 
-    @Test
+    @Test(expected = ArithmeticException.class)
     public void divideByZeroTest()
     {
         Calculator c1 = new Calculator();
-        int actual = c1.divide(15,0);
-        int expected = 0;
-        assertEquals(expected, actual);
+        assertEquals("Should throw arithmetic exception", c1.divide(15,0));
     }
 }

@@ -22,6 +22,13 @@ public class Calculator
 
     public static int divide(int a, int b) throws ArithmeticException
     {
-        return a/b;
+        if(b==0)
+        {
+            throw new ArithmeticException("CAN'T DIVIDE BY ZERO");
+        }
+        else
+        {
+            return a/b;
+        }
     }
 }

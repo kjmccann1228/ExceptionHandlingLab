@@ -33,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mccann/kurt/exceptionHandlingLab/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="278">
+              <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
               <folding>
                 <element signature="e#158#159#0" expanded="true" />
                 <element signature="e#184#185#0" expanded="true" />
@@ -50,11 +50,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ComplexNumberException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mccann/kurt/exceptionHandlingLab/ComplexNumberException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+              <folding>
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DivisionByZeroException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mccann/kurt/exceptionHandlingLab/DivisionByZeroException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/mccann/kurt/exceptionHandlingLab/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+            <state relative-caret-position="1035">
+              <caret line="69" column="51" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,8 +106,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/mccann/kurt/exceptionHandlingLab/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mccann/kurt/exceptionHandlingLab/DivisionByZeroException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mccann/kurt/exceptionHandlingLab/ComplexNumberException.java" />
         <option value="$PROJECT_DIR$/src/main/java/mccann/kurt/exceptionHandlingLab/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mccann/kurt/exceptionHandlingLab/CalculatorTest.java" />
       </list>
     </option>
   </component>
@@ -231,36 +259,10 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.divideByZeroTest">
-    <configuration default="false" name="CalculatorTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="mccann.kurt.exceptionHandlingLab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mccann.kurt.ExceptionHandlingLab1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="mccann.kurt.exceptionHandlingLab" />
-      <option name="MAIN_CLASS_NAME" value="mccann.kurt.exceptionHandlingLab.CalculatorTest" />
-      <option name="METHOD_NAME" value="addTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.CalculatorTest.squareRootHappyPathTest">
     <configuration default="false" name="CalculatorTest.multiplyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -326,6 +328,58 @@
       <option name="PACKAGE_NAME" value="mccann.kurt.exceptionHandlingLab" />
       <option name="MAIN_CLASS_NAME" value="mccann.kurt.exceptionHandlingLab.CalculatorTest" />
       <option name="METHOD_NAME" value="divideByZeroTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CalculatorTest.squareRootOfNegativeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="mccann.kurt.exceptionHandlingLab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mccann.kurt.ExceptionHandlingLab1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="mccann.kurt.exceptionHandlingLab" />
+      <option name="MAIN_CLASS_NAME" value="mccann.kurt.exceptionHandlingLab.CalculatorTest" />
+      <option name="METHOD_NAME" value="squareRootOfNegativeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CalculatorTest.squareRootHappyPathTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="mccann.kurt.exceptionHandlingLab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mccann.kurt.ExceptionHandlingLab1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="mccann.kurt.exceptionHandlingLab" />
+      <option name="MAIN_CLASS_NAME" value="mccann.kurt.exceptionHandlingLab.CalculatorTest" />
+      <option name="METHOD_NAME" value="squareRootHappyPathTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -746,18 +800,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CalculatorTest.addTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CalculatorTest.multiplyTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CalculatorTest.divideTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CalculatorTest.divideByZeroTest" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CalculatorTest.multiplyTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CalculatorTest.divideTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CalculatorTest.divideByZeroTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CalculatorTest.squareRootOfNegativeTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CalculatorTest.squareRootHappyPathTest" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CalculatorTest.divideByZeroTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CalculatorTest.divideTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CalculatorTest.multiplyTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CalculatorTest.addTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CalculatorTest.squareRootHappyPathTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CalculatorTest.squareRootOfNegativeTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CalculatorTest.divideByZeroTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CalculatorTest.divideTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CalculatorTest.multiplyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -771,47 +827,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475426294720</updated>
-      <workItem from="1475426300050" duration="3251000" />
+      <workItem from="1475426300050" duration="6718000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest_addTest - 2016.10.02 at 12h 51m 23s.xml">
-      <configuration name="CalculatorTest.addTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_divideByZeroTest - 2016.10.02 at 13h 05m 12s.xml">
-      <configuration name="CalculatorTest.divideByZeroTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_divideByZeroTest - 2016.10.02 at 13h 21m 20s.xml">
-      <configuration name="CalculatorTest.divideByZeroTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_divideByZeroTest - 2016.10.02 at 13h 22m 03s.xml">
-      <configuration name="CalculatorTest.divideByZeroTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_divideByZeroTest - 2016.10.02 at 13h 23m 04s.xml">
-      <configuration name="CalculatorTest.divideByZeroTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalculatorTest_divideByZeroTest - 2016.10.02 at 13h 24m 59s.xml">
       <configuration name="CalculatorTest.divideByZeroTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CalculatorTest_divideByZeroTest - 2016.10.02 at 13h 36m 35s.xml">
       <configuration name="CalculatorTest.divideByZeroTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_divideTest - 2016.10.02 at 13h 03m 10s.xml">
+    <history-entry file="CalculatorTest_divideByZeroTest - 2016.10.02 at 16h 46m 49s.xml">
+      <configuration name="CalculatorTest.divideByZeroTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_divideByZeroTest - 2016.10.02 at 16h 48m 40s.xml">
+      <configuration name="CalculatorTest.divideByZeroTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_divideByZeroTest - 2016.10.02 at 16h 49m 04s.xml">
+      <configuration name="CalculatorTest.divideByZeroTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_divideByZeroTest - 2016.10.02 at 16h 53m 34s.xml">
+      <configuration name="CalculatorTest.divideByZeroTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_divideTest - 2016.10.02 at 13h 50m 40s.xml">
       <configuration name="CalculatorTest.divideTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_divideTest - 2016.10.02 at 13h 03m 31s.xml">
+    <history-entry file="CalculatorTest_divideTest - 2016.10.02 at 16h 48m 31s.xml">
       <configuration name="CalculatorTest.divideTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_multiplyTest - 2016.10.02 at 12h 52m 16s.xml">
-      <configuration name="CalculatorTest.multiplyTest" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_squareRootHappyPathTest - 2016.10.02 at 20h 08m 51s.xml">
+      <configuration name="CalculatorTest.squareRootHappyPathTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_squareRootOfNegativeTest - 2016.10.02 at 20h 06m 42s.xml">
+      <configuration name="CalculatorTest.squareRootOfNegativeTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3251000" />
+    <option name="totallyTimeSpent" value="6718000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1080" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="-1080" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -821,7 +877,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -869,20 +925,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mccann/kurt/exceptionHandlingLab/CalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mccann/kurt/exceptionHandlingLab/DivisionByZeroException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mccann/kurt/exceptionHandlingLab/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="278">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
           <folding>
             <element signature="e#158#159#0" expanded="true" />
             <element signature="e#184#185#0" expanded="true" />
@@ -890,6 +947,27 @@
             <element signature="e#262#263#0" expanded="true" />
             <element signature="e#314#315#0" expanded="true" />
             <element signature="e#340#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mccann/kurt/exceptionHandlingLab/ComplexNumberException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mccann/kurt/exceptionHandlingLab/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="51" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

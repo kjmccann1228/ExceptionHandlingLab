@@ -20,11 +20,23 @@ public class Calculator
         return a*b;
     }
 
-    public static int divide(int a, int b) throws ArithmeticException
+    public static int squareRoot(int a) throws ComplexNumberException
+    {
+        if(a <= 0)
+        {
+            throw new ComplexNumberException("Don't want complex numbers. Argument must be positive");
+        }
+        else
+        {
+            return(int)(Math.sqrt((double) a));
+        }
+    }
+
+    public static int divide(int a, int b) throws DivisionByZeroException
     {
         if(b==0)
         {
-            throw new ArithmeticException("CAN'T DIVIDE BY ZERO");
+            throw new DivisionByZeroException("CAN'T DIVIDE BY ZERO");
         }
         else
         {

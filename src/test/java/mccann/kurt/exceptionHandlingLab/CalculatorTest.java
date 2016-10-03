@@ -35,18 +35,44 @@ public class CalculatorTest
     }
 
     @Test
-    public void divideTest()
+    public void divideTest() throws DivisionByZeroException
     {
         Calculator c1 = new Calculator();
-        int actual = c1.divide(15,4);
+        int actual;
+        try
+        {
+            actual = c1.divide(15, 4);
+        }
+        catch(DivisionByZeroException e)
+        {
+            System.out.println("You seem to have divided by zero, despite my warnings");
+            e.printStackTrace();
+            throw e;
+        }
+
         int expected = 3;
         assertEquals(expected, actual);
     }
-
-    @Test(expected = ArithmeticException.class)
-    public void divideByZeroTest()
+    @Test(expected = DivisionByZeroException.class)
+    public void divideByZeroTest() throws DivisionByZeroException
     {
         Calculator c1 = new Calculator();
-        assertEquals("Should throw arithmetic exception", c1.divide(15,0));
+        c1.divide(15,0);
+
+    }
+
+    @Test
+    public void squareRootHappyPathTest()
+    {
+        Calculator c1 = new Calculator();
+        int expected = 3;
+        int actual = c1.squareRoot(9);
+        assertEquals("Expect 3", expected, actual);
+    }
+    @Test(expected = ComplexNumberException.class)
+    public void squareRootOfNegativeTest() throws ComplexNumberException
+    {
+        Calculator c1 = new Calculator();
+        c1.squareRoot(-20);
     }
 }
